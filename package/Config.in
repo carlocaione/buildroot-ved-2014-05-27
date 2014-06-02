@@ -131,6 +131,7 @@ endif
 source "package/tree/Config.in"
 source "package/vala/Config.in"
 source "package/yasm/Config.in"
+source "package/mono/Config.in"
 endmenu
 
 menu "Filesystem and flash utilities"
