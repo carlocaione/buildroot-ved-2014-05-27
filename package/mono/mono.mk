@@ -11,5 +11,5 @@ MONO_INSTALL_STAGING = YES
 
 ifeq ($(BR2_PACKAGE_MONO),y)
 	include package/mono/*/*.mk
-	TARGETS += mono-managed mono-native
+	TARGETS += host-mono-managed mono-native
 endif
